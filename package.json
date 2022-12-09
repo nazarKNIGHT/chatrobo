@@ -1,0 +1,29 @@
+{
+  "name": "chatrobo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazarKNIGHT/chatrobo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazarKNIGHT/chatrobo/issues"
+  },
+  "homepage": "https://github.com/nazarKNIGHT/chatrobo#readme",
+  "dependencies": {
+    "socket.io": "^4.5.4",
+    "soket.io": "^0.0.1-security",
+    "sqlite": "^4.1.2"
+  }
+}
